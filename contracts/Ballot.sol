@@ -88,6 +88,4 @@ contract Ballot{
     function winnerName() external view returns(bytes32 proposalName_){
         proposalName_ = proposals[winningProposal()].name;
     }
-    
-
 }
